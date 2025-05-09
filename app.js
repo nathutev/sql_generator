@@ -1,6 +1,3 @@
-//import path from "path";
-//import { fileURLToPath } from "url";
-
 import dotenv from 'dotenv'
 dotenv.config();
 
@@ -13,12 +10,8 @@ import express from "express"
 const app = express();
 const port = process.env.PORT || 8080;
 
-//const __filename = fileURLToPath(import.meta.url);
-//const __dirname = path.dirname(__filename);
-
 app.use(cors());
 app.use(express.json());
-//app.use(express.static(path.join(__dirname, "public")));
 
 app.post("/query", async (req, res) => {
   //res.send("Hello, server is working!");
@@ -160,31 +153,3 @@ pre#result {
 app.listen(port, () => {
   console.log("server is listening on port " + port)
 })
-
-/* NO SOLUTION FOR INPUT RN
-import readline from 'readline';
-import { stdin as input, stdout as output } from 'node:process';
-const rl = readline.createInterface({ input, output });
-*/
-
-/* RENDER IS WITHOUT DATABASE
-import mysql from 'mysql2';
-const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: process.env.DBpasswrd,
-  database: 'eshop'
-});
-*/
-
-
-// users -> dynamic edit needed
-/* RENDER IS WITHOUT DATABASE
-connection.query(`SELECT * FROM ${table} LIMIT 1`, (err, results, fields) => {
-  if (err) throw err;
-
-  columnNames = fields.map(field => field.name);
-  console.log(columnNames);
-  connection.end();
-});
-*/
