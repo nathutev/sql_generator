@@ -66,4 +66,4 @@ Receive a clean SQL statement, ready to copy-paste or run.
 🐘 LLaMA 3.1 - 8B Instruct Model
 
 ## 🧪 Future Improvements
-Add history of generated queries.
+Add history of generated queries. - DONE IN v2
