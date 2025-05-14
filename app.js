@@ -43,7 +43,9 @@ app.post("/query", async (req, res) => {
   });
 
   const content = chatCompletion.choices[0].message.content;
+  
   //const content = Date.now(); // just for testing
+  
   res.send(content);
 })
 

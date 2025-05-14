@@ -97,11 +97,11 @@ pre#result {
   top: 0;
   right: -380px;
   width: 320px;
-  height: 95vh;
+  height: 100vh;
   background-color: white;
   box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
   z-index: 999;
-  padding: 20px;
+  padding: 20px 20px 150px 20px;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
@@ -109,6 +109,7 @@ pre#result {
 
 .sidebar.active {
   right: 0;
+  padding-bottom: 150px;
 }
 
 .sidebar-header {
@@ -148,8 +149,8 @@ pre#result {
 }
 
 .sidebar-content {
-  flex: 1;
-  overflow-y: auto;
+  flex: none;
+  overflow-y:hidden;
 }
 
 .history-item {
@@ -191,7 +192,7 @@ pre#result {
   color: white;
   padding: 8px 16px;
   border-radius: 6px;
-  margin-top: 10px;
+  margin-top: 0px;
   align-self: center;
 }
 
