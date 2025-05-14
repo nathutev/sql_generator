@@ -49,32 +49,23 @@ Visit in Browser
 Open http://localhost:10000 (or your selected port from .env) in your web browser. It is also deployed online at https://sql-generator-xivz.onrender.com
 
 ## 📁 Project Structure
-├── .vscode/               # VS Code specific settings (optional)
+├── public/             
 <br>
-├── node_modules/          # Project dependencies (auto-generated)
+│   ├── index.html      
 <br>
-├── public/                # Static assets served to the client
+│   ├── local.js        
 <br>
-│   ├── index.html         # Main HTML file
+│   └── styles.css      
 <br>
-│   ├── local.js           # Frontend JavaScript logic
+├── .env             
 <br>
-│   └── styles.css         # CSS styles for the app
+├── app.js           
 <br>
-├── .env                   # Environment variables (not committed)
+├── notes.js
 <br>
-├── .gitignore             # Files and folders to ignore in Git
+├── package-lock.json
 <br>
-├── app.js                 # Entry point of the Node.js server
-<br>
-├── notes.js               # Custom module or logic related to notes
-<br>
-├── package-lock.json      # Auto-generated lockfile for dependencies
-<br>
-├── package.json           # Project metadata and scripts
-<br>
-└── README.md              # Project documentation (you're here)
-
+├── package.json
 
 ## ✨ Example Usage
 Enter your table name(s), column name(s), and query intent in plain English.
