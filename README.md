@@ -51,9 +51,12 @@ Open http://localhost:10000 (or your selected port from .env) in your web browse
 ## 📁 Project Structure
 
 ├── public/
-  └── index.html
-  └── local.js
-  └── styles.css
+
+    └── index.html
+
+    └── local.js
+
+    └── styles.css
 
 ├── .env
 
