@@ -50,17 +50,29 @@ Open http://localhost:10000 (or your selected port from .env) in your web browse
 
 ## 📁 Project Structure
 ├── .vscode/               # VS Code specific settings (optional)
+<br>
 ├── node_modules/          # Project dependencies (auto-generated)
+<br>
 ├── public/                # Static assets served to the client
+<br>
 │   ├── index.html         # Main HTML file
+<br>
 │   ├── local.js           # Frontend JavaScript logic
+<br>
 │   └── styles.css         # CSS styles for the app
+<br>
 ├── .env                   # Environment variables (not committed)
+<br>
 ├── .gitignore             # Files and folders to ignore in Git
+<br>
 ├── app.js                 # Entry point of the Node.js server
+<br>
 ├── notes.js               # Custom module or logic related to notes
+<br>
 ├── package-lock.json      # Auto-generated lockfile for dependencies
+<br>
 ├── package.json           # Project metadata and scripts
+<br>
 └── README.md              # Project documentation (you're here)
 
 
