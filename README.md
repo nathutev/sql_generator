@@ -1,6 +1,5 @@
 # 🧠 Text-to-SQL Generator
-This project is a simple Text-to-SQL Generator web app built using Node.js, Express, and the Hugging Face Inference API. It converts natural language input into SQL queries based on user-defined tables and columns.
-
+This project is a simple Text-to-SQL Generator web app built using Node.js, Express, and the Hugging Face Inference API. It converts natural language input into SQL queries based on user-defined tables and columns. It is deployed at https://sql-generator-xivz.onrender.com
 ## 🚀 Features
 Converts natural language text into SQL queries using Meta LLaMA 3.1 (via Hugging Face).
 
@@ -47,7 +46,7 @@ Start the Server
 node index.js
 ```
 Visit in Browser
-Open http://localhost:10000 in your web browser.
+Open http://localhost:10000 in your web browser. It is also deployed online at https://sql-generator-xivz.onrender.com
 
 ## 📁 Project Structure
 
